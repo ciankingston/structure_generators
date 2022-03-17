@@ -9,3 +9,6 @@ This script generates analogs using medicinal chemistry "intuition" which is obt
 (2) user_defined_molecular_assembly.ipynb + amines.xlsx + BAs.xlsx
 
 This script assembles molecules using user-defined fragments. In the example, the chosen molecular core bears a bromide and a carboxylic acid. The bromide will be used in a Suzuki reaction while the acid will be used for amide coupling. The 150 possible products from user-defined lists of 15 boronic acids and 10 amines are virtually synthesized. Molecular descriptors are generated and the molecules are clustered to provide a representative set. Code adapted from: https://greglandrum.github.io/rdkit-blog/tutorial/rgd/2022/03/14/rgd-and-molzip.html
+
+(3) crem.ipynb
+
