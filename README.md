@@ -12,3 +12,4 @@ This script assembles molecules using user-defined fragments. In the example, th
 
 (3) crem.ipynb
 
+As in mmpa_medchem_playbook.ipynb, this script generates molecules using rules obtained from matched molecule pair analysis of the ChEMBL database (https://jcheminf.biomedcentral.com/articles/10.1186/s13321-020-00431-w). The MUTATE operation can replace a defined portion of a molecule with new fragments or decorate the scaffold by replacing every available hydrogen, GROW replaces a specific hydrogen atom, and LINK generates linker structures to join the core molecule to a user-defined fragment.
